@@ -1,7 +1,0 @@
-SCORE = 42
-SMART-
--MAR-S
-
-SMAR-T
--MARS-
-
