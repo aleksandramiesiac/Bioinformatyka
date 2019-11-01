@@ -1,7 +1,7 @@
 import numpy as np
 import networkx as nx 
 import argparse
-import alg_need_wunch_func as fa
+import alg_need_wunsch_func as fa
 
 
 #wczytanie z plików za pomocą argparse
