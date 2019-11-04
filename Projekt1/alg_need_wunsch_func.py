@@ -74,10 +74,10 @@ def change_str_to_int(x):
 def modifications_to_file(paths, seq1, seq2, filename, matrix):
     file = open(filename,'w')
     #oblicz score modyfikacji
-    sums=0
-    for idx in paths[0]:
-        sums+=matrix[idx[0]][idx[1]]   
-    file.write('SCORE = '+str(sums)+'\n\n')
+    # sums=0
+    # for idx in paths[0]:
+    #     sums+=matrix[idx[0]][idx[1]]   
+    file.write('SCORE = '+str(matrix[len(seq1)][len(seq2)])+'\n\n')
     #przepisz modefikacje do pliku
     for path in paths:
         line1, line2 = modification(path, seq1, seq2)
